@@ -1,0 +1,380 @@
+@font-face {
+    font-family: tommy;
+    src: url(made_tommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.header-org{
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: left;
+    object-fit: cover;
+
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+/* .header-menu ul {
+
+} */
+
+.header-menu ul li {
+    padding: 0 20px;
+    display: inline;
+}
+
+.header-menu ul li a {
+    font-family: tommy;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.426);
+}
+
+.header-menu a:hover {
+    color: black;
+    border-bottom: 3px solid rgb(49 208 106);    
+    padding-bottom: 20px;
+    transition: 0.2s;
+
+}
+
+
+.header-btn button{
+    padding: 12px 27px;
+    background-image: linear-gradient(120deg, rgb(49 208 106), rgb(44 185 212));
+    border: none;
+    font-family: tommy;
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.header-btn button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.header-btn button:active {
+    opacity: 0.75;
+
+}
+
+/* first body --------------------------------------------------------------------------*/
+
+.first-body {
+    position: relative;
+    height: auto;
+}
+
+.bg-start img{
+    top: -300px;
+    right: -300px;
+    z-index: -1;
+    position: absolute;
+    /* right: -50%; */
+    /* left: 50%; */
+
+}
+
+.bg-start-mobile {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: -150px;
+}
+
+
+
+.box-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 80%;
+}
+
+.box-top h2 {
+    font-family: tommy;
+    font-size: 46px;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
+.box-top p {
+    font-family: tommy;
+    color: rgba(0, 0, 0, 0.429);
+    margin: 25px 0;
+    line-height: 150%;
+}
+
+.box-top button{
+    padding: 15px 27px;
+    background-image: linear-gradient(120deg, rgb(49 208 106), rgb(44 185 212));
+    border: none;
+    font-family: tommy;
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    width: fit-content;
+}
+
+.box-top button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.box-top button:active {
+    opacity: 0.75;
+
+}
+
+/* main main---------------------------------------- */
+
+.main-main {
+    width: 100%;
+    /* background-color: rgba(208, 197, 197, 0.149); */
+    margin-top: 373px;
+    background-color: rgb(244, 245, 247);
+    z-index: -1;
+
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.main-head h2 {
+    font-family: tommy;
+    font-size: 36px;
+}
+
+.main-head p {
+    font-family: tommy;
+    color: rgba(0, 0, 0, 0.47);
+    line-height: 150%;
+    
+}
+
+.main-items {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.main-boxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.main-boxs .boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: transform 0.5s;
+}
+
+.main-boxs .boxs h3 {
+    font-family: tommy;
+    font-size: 30px;
+
+}
+
+.main-boxs .boxs p {
+    color: rgba(0, 0, 0, 0.47);
+    font-family: tommy;
+    line-height: 150%;
+}
+
+
+.main-boxs .boxs:hover {
+    
+    transform: scale(1.04);
+}
+
+
+/* ------------- main btn ------------------ */
+
+.main-btn {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-head h2{
+    padding: 70px 0 40px 0;
+    font-family: tommy;
+    font-size: 36px;
+}
+
+.btn-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-cards {
+    background-color: rgb(255, 248, 248);
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.img-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0  0;
+}
+
+.card-item {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1,.img-card {
+    height: 50%;
+}
+
+.card-item span {
+    color: rgba(0, 0, 0, 0.46);
+    padding-top: 30px;
+    font-family: tommy;
+    font-size: 14px;
+}
+
+.card-item h3{
+    padding-top: 15px;
+    margin: 0;
+    font-size: 25px;
+    font-family: tommy;
+
+}
+.card-item p{
+
+    font-family: tommy;
+    color: rgba(0, 0, 0, 0.46);
+
+}
+
+.btn-cards:hover {
+    transform: scale(1.04);
+    transition: 0.7s;
+
+}
+
+/* foooooooooooooooooooter */
+
+.footer {
+    width: 100%;
+    background-color: rgb(45 49 78);
+    padding: 40px 0;
+}
+
+.f-main {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.f-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-item1 h2 {
+    margin-top: -5px;
+    font-family: tommy;
+    color: white;
+}
+
+.f-logoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.f-item2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.f-item3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-item4 button{
+    padding: 12px 27px;
+    background-image: linear-gradient(120deg, rgb(49 208 106), rgb(44 185 212));
+    border: none;
+    font-family: tommy;
+    color: white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.f-item4 button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.f-item4 button:active {
+    opacity: 0.75;
+
+}
+
+.f-item3 a {
+    padding: 5px 0;
+    font-family: tommy;
+    text-decoration: none;
+    color: white;
+}
+.f-item2 a {
+    padding: 5px 0;
+    font-family: tommy;
+    text-decoration: none;
+    color: white;
+}
